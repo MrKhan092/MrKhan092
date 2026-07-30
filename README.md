@@ -7,7 +7,7 @@ I enjoy working on **full-stack projects, open-source tools, and real-world appl
 Currently learning **advanced system design**, **backend scalability**, and **real-time data systems**, while continuously strengthening my **DSA problem-solving skills**.
 
 💬 **Ask me about:**  
-C++, Data Structures & Algorithms (300+ problems), React.js, Node.js, Express.js, MongoDB, RESTful APIs, JWT/OAuth2, and end-to-end full-stack development.
+C++, Data Structures & Algorithms (500+ problems), React.js, Node.js, Express.js, MongoDB, RESTful APIs, JWT/OAuth2, and end-to-end full-stack development.
 
 ⚡ **Fun fact:**  
 I love turning complex requirements into clean, efficient, and scalable solutions 🚀
