@@ -1,31 +1,23 @@
 {
-  "generatedAt": "2026-10-19T08:59:19.127Z",
+  "generatedAt": "2026-10-19T12:10:03.184Z",
   "repoCount": 51,
   "totalStars": 12,
   "languages": [
     {
-      "lang": "Python",
-      "pct": 91.1
-    },
-    {
-      "lang": "Cython",
-      "pct": 3.6
-    },
-    {
-      "lang": "C++",
-      "pct": 2.7
-    },
-    {
       "lang": "JavaScript",
-      "pct": 1.1
+      "pct": 92.6
     },
     {
-      "lang": "C",
-      "pct": 0.8
+      "lang": "CSS",
+      "pct": 7.2
     },
     {
-      "lang": "other",
-      "pct": 0.6
+      "lang": "HTML",
+      "pct": 0.2
+    },
+    {
+      "lang": "Dockerfile",
+      "pct": 0
     }
   ],
   "totalCommits": 218,
