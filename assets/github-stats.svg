@@ -25,9 +25,9 @@
     <line class="rule" x1="548" y1="72" x2="948" y2="72"/>
 <text x="548" y="105" font-size="10">JAVASCRIPT</text><rect class="bar" x="660" y="94" width="270" height="12"/><rect class="fill grow" x="660" y="94" width="270" height="12"/>
     <text x="548" y="141" font-size="10">CSS</text><rect class="bar" x="660" y="130" width="270" height="12"/><rect class="fill grow g2" x="660" y="130" width="21" height="12"/>
-    <text x="548" y="177" font-size="10">PYTHON</text><rect class="bar" x="660" y="166" width="270" height="12"/><rect class="fill grow g3" x="660" y="166" width="8" height="12"/>
-    <text x="548" y="213" font-size="10">JAVA</text><rect class="bar" x="660" y="202" width="270" height="12"/><rect class="fill grow g4" x="660" y="202" width="4" height="12"/>
-    <text x="548" y="249" font-size="10">TYPESCRIPT</text><rect class="bar" x="660" y="238" width="270" height="12"/><rect class="fill grow g5" x="660" y="238" width="4" height="12"/>
+    <text x="548" y="177" font-size="10">JAVA</text><rect class="bar" x="660" y="166" width="270" height="12"/><rect class="fill grow g3" x="660" y="166" width="4" height="12"/>
+    <text x="548" y="213" font-size="10">TYPESCRIPT</text><rect class="bar" x="660" y="202" width="270" height="12"/><rect class="fill grow g4" x="660" y="202" width="4" height="12"/>
+    <text x="548" y="249" font-size="10">HTML</text><rect class="bar" x="660" y="238" width="270" height="12"/><rect class="fill grow g5" x="660" y="238" width="4" height="12"/>
     <text x="548" y="285" font-size="10">OTHER</text><rect class="bar" x="660" y="274" width="270" height="12"/><rect class="fill grow g6" x="660" y="274" width="4" height="12"/>
   </g>
 </svg>
