@@ -1,41 +1,36 @@
-<svg viewBox="0 0 1000 374" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Technology stack">
-  <rect width="1000" height="374" fill="#FFFFFF"/>
-  <style>
-    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
-    .label { font-size: 12px; fill: #666666; letter-spacing: 1.5px; }
-    .value { font-size: 14px; fill: #222222; }
-  </style>
-  <line x1="138" y1="8" x2="138" y2="366" stroke="#BBBBBB" stroke-width="1" opacity=".6"/>
-  <text class="mono label" x="18" y="26">LANGUAGES</text>
-  <text class="mono value" x="154" y="26">C++ · TypeScript · JavaScript · Python · Java</text>
-  <line x1="154" y1="36" x2="982" y2="36" stroke="#BBBBBB" opacity=".18"/>
-  <text class="mono label" x="18" y="58">FRONTEND</text>
-  <text class="mono value" x="154" y="58">React.js · Next.js · Tailwind CSS · HTML · CSS</text>
-  <line x1="154" y1="68" x2="982" y2="68" stroke="#BBBBBB" opacity=".18"/>
-  <text class="mono label" x="18" y="90">BACKEND</text>
-  <text class="mono value" x="154" y="90">Node.js · Express.js · Hono · FastAPI</text>
-  <line x1="154" y1="100" x2="982" y2="100" stroke="#BBBBBB" opacity=".18"/>
-  <text class="mono label" x="18" y="122">DATABASES</text>
-  <text class="mono value" x="154" y="122">MongoDB · PostgreSQL · MySQL · Prisma ORM · Redis · ChromaDB</text>
-  <line x1="154" y1="132" x2="982" y2="132" stroke="#BBBBBB" opacity=".18"/>
-  <text class="mono label" x="18" y="154">AI / LLM</text>
-  <text class="mono value" x="154" y="154">LangChain · LangGraph · Google Gemini API · Hugging Face · RAG</text>
-  <line x1="154" y1="164" x2="982" y2="164" stroke="#BBBBBB" opacity=".18"/>
-  <text class="mono label" x="18" y="186">MESSAGING</text>
-  <text class="mono value" x="154" y="186">Apache Kafka · Socket.IO · REST APIs</text>
-  <line x1="154" y1="196" x2="982" y2="196" stroke="#BBBBBB" opacity=".18"/>
-  <text class="mono label" x="18" y="218">PAYMENTS / SDKs</text>
-  <text class="mono value" x="154" y="218">Stripe · Stream Video/Chat SDK · Monaco Editor · Clerk · Inngest</text>
-  <line x1="154" y1="228" x2="982" y2="228" stroke="#BBBBBB" opacity=".18"/>
-  <text class="mono label" x="18" y="250">CONTAINERS</text>
-  <text class="mono value" x="154" y="250">Docker · Kubernetes (K8s) · Helm</text>
-  <line x1="154" y1="260" x2="982" y2="260" stroke="#BBBBBB" opacity=".18"/>
-  <text class="mono label" x="18" y="282">CLOUD / GITOPS</text>
-  <text class="mono value" x="154" y="282">AWS EC2 · Terraform · GitOps · Argo CD · Jenkins</text>
-  <line x1="154" y1="292" x2="982" y2="292" stroke="#BBBBBB" opacity=".18"/>
-  <text class="mono label" x="18" y="314">MONITORING</text>
-  <text class="mono value" x="154" y="314">Prometheus · Grafana</text>
-  <line x1="154" y1="324" x2="982" y2="324" stroke="#BBBBBB" opacity=".18"/>
-  <text class="mono label" x="18" y="346">TOOLS</text>
-  <text class="mono value" x="154" y="346">Git · GitHub · Postman · VS Code · IntelliJ IDEA · Bash · Cloudflare · Vercel</text>
+<svg style="background:transparent" viewBox="0 0 1200 414" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Technical stack — languages, frontend, backend, databases, AI, messaging, SDKs, containers, cloud, monitoring, tools">
+<style>.mono{font-family:ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace}</style>
+<line x1="174" y1="8" x2="174" y2="406" stroke="#B8C0C8" stroke-width="1" opacity=".8"/>
+<text class="mono" x="36" y="29" font-size="13" fill="#59636F" letter-spacing="1.5">LANGUAGES</text>
+<text class="mono" x="194" y="29" font-size="16" fill="#20262D">C++ · TypeScript · JavaScript · Python · Java</text>
+<line x1="194" y1="42" x2="1164" y2="42" stroke="#B8C0C8" stroke-width=".7" opacity=".28"/>
+<text class="mono" x="36" y="63" font-size="13" fill="#59636F" letter-spacing="1.5">FRONTEND</text>
+<text class="mono" x="194" y="63" font-size="16" fill="#20262D">React.js · Next.js · Tailwind CSS · HTML · CSS</text>
+<line x1="194" y1="76" x2="1164" y2="76" stroke="#B8C0C8" stroke-width=".7" opacity=".28"/>
+<text class="mono" x="36" y="97" font-size="13" fill="#59636F" letter-spacing="1.5">BACKEND</text>
+<text class="mono" x="194" y="97" font-size="16" fill="#20262D">Node.js · Express.js · Hono · FastAPI</text>
+<line x1="194" y1="110" x2="1164" y2="110" stroke="#B8C0C8" stroke-width=".7" opacity=".28"/>
+<text class="mono" x="36" y="131" font-size="13" fill="#59636F" letter-spacing="1.5">DATABASES</text>
+<text class="mono" x="194" y="131" font-size="16" fill="#20262D">MongoDB · PostgreSQL · MySQL · Prisma ORM · Redis · ChromaDB</text>
+<line x1="194" y1="144" x2="1164" y2="144" stroke="#B8C0C8" stroke-width=".7" opacity=".28"/>
+<text class="mono" x="36" y="165" font-size="13" fill="#59636F" letter-spacing="1.5">AI / LLM</text>
+<text class="mono" x="194" y="165" font-size="16" fill="#20262D">LangChain · LangGraph · Gemini API · Hugging Face · RAG</text>
+<line x1="194" y1="178" x2="1164" y2="178" stroke="#B8C0C8" stroke-width=".7" opacity=".28"/>
+<text class="mono" x="36" y="199" font-size="13" fill="#59636F" letter-spacing="1.5">MESSAGING</text>
+<text class="mono" x="194" y="199" font-size="16" fill="#20262D">Apache Kafka · Socket.IO · REST APIs</text>
+<line x1="194" y1="212" x2="1164" y2="212" stroke="#B8C0C8" stroke-width=".7" opacity=".28"/>
+<text class="mono" x="36" y="233" font-size="13" fill="#59636F" letter-spacing="1.5">PAYMENTS / SDKs</text>
+<text class="mono" x="194" y="233" font-size="16" fill="#20262D">Stripe · Stream Video/Chat SDK · Monaco Editor · Clerk · Inngest</text>
+<line x1="194" y1="246" x2="1164" y2="246" stroke="#B8C0C8" stroke-width=".7" opacity=".28"/>
+<text class="mono" x="36" y="267" font-size="13" fill="#59636F" letter-spacing="1.5">CONTAINERS</text>
+<text class="mono" x="194" y="267" font-size="16" fill="#20262D">Docker · Kubernetes (K8s) · Helm</text>
+<line x1="194" y1="280" x2="1164" y2="280" stroke="#B8C0C8" stroke-width=".7" opacity=".28"/>
+<text class="mono" x="36" y="301" font-size="13" fill="#59636F" letter-spacing="1.5">CLOUD / GITOPS</text>
+<text class="mono" x="194" y="301" font-size="16" fill="#20262D">AWS EC2 · Terraform · GitOps · Argo CD · Jenkins</text>
+<line x1="194" y1="314" x2="1164" y2="314" stroke="#B8C0C8" stroke-width=".7" opacity=".28"/>
+<text class="mono" x="36" y="335" font-size="13" fill="#59636F" letter-spacing="1.5">MONITORING</text>
+<text class="mono" x="194" y="335" font-size="16" fill="#20262D">Prometheus · Grafana</text>
+<line x1="194" y1="348" x2="1164" y2="348" stroke="#B8C0C8" stroke-width=".7" opacity=".28"/>
+<text class="mono" x="36" y="369" font-size="13" fill="#59636F" letter-spacing="1.5">TOOLS</text>
+<text class="mono" x="194" y="369" font-size="16" fill="#20262D">Git · GitHub · Postman · VS Code · IntelliJ IDEA · Bash · Cloudflare · Vercel</text>
 </svg>
