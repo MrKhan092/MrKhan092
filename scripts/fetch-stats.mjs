@@ -33,12 +33,10 @@ const LANGUAGE_REPOS = new Set([
   "Study-Notion",
   "LangGrap_proj",
   "candidate-data-transformer",
-  "Phishing_Detection",
   "docker-compose",
   "TS",
   "Music_Player",
   "Dockerfile_node",
-  "GENAI",
 ]);
 
 const MAX_LANGUAGE_BYTES = 5;
