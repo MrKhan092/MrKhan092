@@ -31,6 +31,11 @@ const LANGUAGE_REPOS = new Set([
   "Agri_Care",
   "CodeSphere",
   "Study-Notion",
+  "LangGrap_proj",
+  "TS",
+  "Music_Player",
+  "Dockerfile_node",
+  "GENAI",
 ]);
 
 const MAX_LANGUAGE_BYTES = 5;
