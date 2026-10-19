@@ -32,7 +32,6 @@ const LANGUAGE_REPOS = new Set([
   "CodeSphere",
   "Study-Notion",
   "LangGrap_proj",
-  "candidate-data-transformer",
   "docker-compose",
   "TS",
   "Music_Player",
