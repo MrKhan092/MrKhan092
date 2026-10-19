@@ -1,6 +1,6 @@
 <svg viewBox="0 0 1000 92" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Section 03 — PROJECTS">
   <style>
-    :root { --rule: #C0C0C0; --muted: #888888; --accent: #555555; --ghost: #CCCCCC; }
+    :root { --rule: #30363D; --muted: #8B949E; --accent: #C5C99A; --ghost: #CCCCCC; }
     @media (prefers-color-scheme: dark) {
       :root { --rule: #444444; --muted: #777777; --accent: #AAAAAA; --ghost: #2A2A2A; }
     }
@@ -14,7 +14,7 @@
     @media (prefers-reduced-motion: reduce) {
       .draw,.f,.tick { animation: none; } .draw { stroke-dashoffset: 0; } .f { opacity: 1; }
     }
-      :root { --bone: #000000; --muted: #000000; --dim: #000000; --rule: #000000; --accent: #000000; --node-bg: #FFFFFF; --core-bg: #FFFFFF; }
+      
   :root { --bone:#FFFFFF; --muted:#FFFFFF; --dim:#FFFFFF; --rule:#FFFFFF; --accent:#FFFFFF; --node-bg:#000000; --core-bg:#000000; --ghost:#FFFFFF; --ink:#FFFFFF; --paper:#000000; --ghost:#FFFFFF; }
 </style>
   <g class="f">

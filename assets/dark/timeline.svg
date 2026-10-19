@@ -1,6 +1,6 @@
 <svg viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline: 2020 started engineering, 2023 VIT Chennai and iSpace Club, 2025 GeoPacific internship, 2026 SRIP research and Ambian Strategy, now open to work">
   <style>
-    :root { --bone: #444444; --muted: #888888; --dim: #AAAAAA; --rule: #C0C0C0; --accent: #555555; }
+    :root { --bone: #E6EDF3; --muted: #8B949E; --dim: #8B949E; --rule: #30363D; --accent: #C5C99A; }
     @media (prefers-color-scheme: dark) { :root { --bone: #DDDDDD; --muted: #777777; --dim: #666666; --rule: #444444; --accent: #AAAAAA; } }
     .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
     .axis { stroke: var(--rule); stroke-width: 1; stroke-dasharray: 1110; stroke-dashoffset: 1110; animation: draw 2.4s cubic-bezier(.6,0,.2,1) forwards; }
@@ -15,7 +15,7 @@
     @media (prefers-reduced-motion: reduce) {
       .axis,.m,.pulse,.ring { animation: none; } .axis{stroke-dashoffset:0} .m{opacity:1} .ring{opacity:0}
     }
-      :root { --bone: #000000; --muted: #000000; --dim: #000000; --rule: #000000; --accent: #000000; --node-bg: #FFFFFF; --core-bg: #FFFFFF; }
+      
   :root { --bone:#FFFFFF; --muted:#FFFFFF; --dim:#FFFFFF; --rule:#FFFFFF; --accent:#FFFFFF; --node-bg:#000000; --core-bg:#000000; --ghost:#FFFFFF; --ink:#FFFFFF; --paper:#000000; --ghost:#FFFFFF; }
 </style>
 
