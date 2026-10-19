@@ -1,43 +1,48 @@
-<svg viewBox="0 0 1000 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Featured projects by Mohammad Kaif">
+<svg style="background:transparent" viewBox="0 0 1000 504" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Featured projects by Mohammad Kaif">
   <style>
-    :root { --ink:#FFFFFF; --paper:#22272E; }
-    .mono { font-family:ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace; }
+    :root { --bone:#ececec; --muted:#a3a3a3; --dim:#7d7d7d; --rule:#444444; --accent:#ffffff; --ghost:#2e2e2e; --ink:#ffffff; }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
     .row { opacity:0; animation:reveal .55s cubic-bezier(.2,.7,.2,1) forwards; }
-    .rule { stroke:var(--ink); stroke-width:1; }
-    .title { fill:var(--ink); font-size:17px; font-weight:700; letter-spacing:.8px; }
-    .copy { fill:var(--ink); font-size:12px; }
-    .meta { fill:var(--ink); font-size:10px; letter-spacing:.25px; }
-    @keyframes reveal { from { opacity:0; } to { opacity:1; } }
+    .title { fill:var(--accent); font-size:17px; font-weight:700; letter-spacing:.8px; }
+    .copy { fill:var(--bone); font-size:12px; }
+    .meta { fill:var(--muted); font-size:11px; letter-spacing:.4px; }
+    @keyframes reveal { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
+    .r1{animation-delay:.05s}.r2{animation-delay:.2s}.r3{animation-delay:.35s}.r4{animation-delay:.5s}.r5{animation-delay:.65s}
     @media (prefers-reduced-motion:reduce) { .row { animation:none; opacity:1; } }
   </style>
-  <rect width="1000" height="480" fill="#22272E"/>
-  <g class="mono">
-    <g class="row" style="animation-delay:0.10s" transform="translate(0 10)">
-      <text class="title" x="48" y="24">01 / AGRICARE</text>
-      <text class="copy" x="48" y="49">Farm management platform with crop-care calendar, mandi prices, schemes, and farm finance tracking.</text>
-      <text class="copy" x="48" y="68">Containerized deployment with CI/CD and monitoring for application throughput, latency, and memory.</text>
-      <text class="meta" x="48" y="87">REACT · NODE.JS · DOCKER · AWS EC2 · JENKINS · PROMETHEUS · GRAFANA</text>
-      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
-    </g>
-    <g class="row" style="animation-delay:0.15s" transform="translate(0 125)">
-      <text class="title" x="48" y="24">02 / BOOKME</text>
-      <text class="copy" x="48" y="49">Scheduling SaaS platform with provider bookings, availability, and Stripe payments.</text>
-      <text class="copy" x="48" y="68">Kafka handles asynchronous booking side effects; Redis supports distributed locking, caching, and fast OTP verification.</text>
-      <text class="meta" x="48" y="87">NODE.JS · REDIS · APACHE KAFKA · STRIPE</text>
-      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
-    </g>
-    <g class="row" style="animation-delay:0.20s" transform="translate(0 240)">
-      <text class="title" x="48" y="24">03 / YOUTUBE RAG ASSISTANT</text>
-      <text class="copy" x="48" y="49">AI Chrome extension that summarizes YouTube videos and answers transcript-grounded questions.</text>
-      <text class="copy" x="48" y="68">Uses recursive chunking, Gemini embeddings, ChromaDB vector search, and a FastAPI backend.</text>
-      <text class="meta" x="48" y="87">PYTHON · LANGCHAIN · LANGGRAPH · FASTAPI · GEMINI · CHROMADB</text>
-      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
-    </g>
-    <g class="row" style="animation-delay:0.25s" transform="translate(0 355)">
-      <text class="title" x="48" y="24">04 / CODESPHERE</text>
-      <text class="copy" x="48" y="49">Collaborative coding platform for real-time pair programming and technical interviews.</text>
-      <text class="copy" x="48" y="68">Includes live code sync, video calls, session management, Monaco Editor, and sandboxed multi-language execution.</text>
-      <text class="meta" x="48" y="87">REACT · NODE.JS · MONGODB · STREAM SDK · CLERK · MONACO · INNGEST · PISTON API</text>
-    </g>
-  </g>
+  <g transform="translate(0 0)"><g class="row r1">
+    <text class="mono title" x="48" y="30">01 / BOOKME</text>
+    <text class="mono meta" x="952" y="30" text-anchor="end">SEP 2026 — PRESENT</text>
+    <text class="mono copy" x="48" y="55">Scheduling SaaS for provider bookings, payments and real-time slot availability on Stripe.</text>
+    <text class="mono copy" x="48" y="74">Kafka event backend cut booking API latency from 6s to &lt;300ms; Redis locks prevent double-booking.</text>
+    <text class="mono meta" x="48" y="94">NODE.JS · REDIS · APACHE KAFKA · STRIPE</text>
+    <line x1="48" y1="108" x2="952" y2="108" stroke="var(--rule)" stroke-width="1"/>
+  </g></g>
+  <g transform="translate(0 116)"><g class="row r2">
+    <text class="mono title" x="48" y="30">02 / YOUTUBE RAG ASSISTANT</text>
+    <text class="mono meta" x="952" y="30" text-anchor="end">AUG 2026 — PRESENT</text>
+    <text class="mono copy" x="48" y="55">Chrome extension that summarizes YouTube videos and answers questions grounded in the transcript.</text>
+    <text class="mono copy" x="48" y="74">LangChain RAG pipeline with Gemini embeddings + ChromaDB, served by FastAPI; multi-language transcripts.</text>
+    <text class="mono meta" x="48" y="94">PYTHON · LANGCHAIN · FASTAPI · GEMINI API · CHROMADB</text>
+    <line x1="48" y1="108" x2="952" y2="108" stroke="var(--rule)" stroke-width="1"/>
+  </g></g>
+  <g transform="translate(0 232)"><g class="row r3">
+    <text class="mono title" x="48" y="30">03 / AGRICARE</text>
+    <text class="mono meta" x="952" y="30" text-anchor="end">JUN — AUG 2026</text>
+    <text class="mono copy" x="48" y="55">Farm management platform: crop care calendar, live mandi prices, schemes, expense &amp; inventory tracking.</text>
+    <text class="mono copy" x="48" y="74">Dockerized on AWS EC2 with Jenkins CI/CD via GitHub webhooks; Prometheus + Grafana monitoring.</text>
+    <text class="mono meta" x="48" y="94">REACT · NODE.JS · DOCKER · AWS EC2 · JENKINS · PROMETHEUS · GRAFANA</text>
+    <line x1="48" y1="108" x2="952" y2="108" stroke="var(--rule)" stroke-width="1"/>
+  </g></g>
+  <g transform="translate(0 348)"><g class="row r4">
+    <text class="mono title" x="48" y="30">04 / CODESPHERE</text>
+    <text class="mono meta" x="952" y="30" text-anchor="end">JAN 2026</text>
+    <text class="mono copy" x="48" y="55">Collaborative coding platform for pair programming and interviews: live code sync and video calls.</text>
+    <text class="mono copy" x="48" y="74">Sub-50ms sync with Stream SDK + Monaco Editor; Clerk OAuth2, Inngest workflows, sandboxed execution.</text>
+    <text class="mono meta" x="48" y="94">REACT · NODE.JS · MONGODB · STREAM SDK · CLERK · INNGEST</text>
+    <line x1="48" y1="108" x2="952" y2="108" stroke="var(--rule)" stroke-width="1"/>
+  </g></g>
+  <g transform="translate(0 464)"><g class="row r5">
+    <text class="mono meta" x="48" y="24">ALSO SHIPPED ▸  STUDYNOTION (EDTECH · RAZORPAY) · REAL-TIME ANALYTICS (SOCKET.IO) · SECOND BRAIN (TS · POSTGRESQL)</text>
+  </g></g>
 </svg>
