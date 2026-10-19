@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1000 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Featured projects by Mohammad Kaif">
+  <style>
+    :root { --ink:#FFFFFF; --paper:#22272E; }
+    .mono { font-family:ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,"Liberation Mono",monospace; }
+    .row { opacity:0; animation:reveal .55s cubic-bezier(.2,.7,.2,1) forwards; }
+    .rule { stroke:var(--ink); stroke-width:1; }
+    .title { fill:var(--ink); font-size:17px; font-weight:700; letter-spacing:.8px; }
+    .copy { fill:var(--ink); font-size:12px; }
+    .meta { fill:var(--ink); font-size:10px; letter-spacing:.25px; }
+    @keyframes reveal { from { opacity:0; } to { opacity:1; } }
+    @media (prefers-reduced-motion:reduce) { .row { animation:none; opacity:1; } }
+  </style>
+  <rect width="1000" height="480" fill="#22272E"/>
+  <g class="mono">
+    <g class="row" style="animation-delay:0.10s" transform="translate(0 10)">
+      <text class="title" x="48" y="24">01 / AGRICARE</text>
+      <text class="copy" x="48" y="49">Farm management platform with crop-care calendar, mandi prices, schemes, and farm finance tracking.</text>
+      <text class="copy" x="48" y="68">Containerized deployment with CI/CD and monitoring for application throughput, latency, and memory.</text>
+      <text class="meta" x="48" y="87">REACT · NODE.JS · DOCKER · AWS EC2 · JENKINS · PROMETHEUS · GRAFANA</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row" style="animation-delay:0.15s" transform="translate(0 125)">
+      <text class="title" x="48" y="24">02 / BOOKME</text>
+      <text class="copy" x="48" y="49">Scheduling SaaS platform with provider bookings, availability, and Stripe payments.</text>
+      <text class="copy" x="48" y="68">Kafka handles asynchronous booking side effects; Redis supports distributed locking, caching, and fast OTP verification.</text>
+      <text class="meta" x="48" y="87">NODE.JS · REDIS · APACHE KAFKA · STRIPE</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row" style="animation-delay:0.20s" transform="translate(0 240)">
+      <text class="title" x="48" y="24">03 / YOUTUBE RAG ASSISTANT</text>
+      <text class="copy" x="48" y="49">AI Chrome extension that summarizes YouTube videos and answers transcript-grounded questions.</text>
+      <text class="copy" x="48" y="68">Uses recursive chunking, Gemini embeddings, ChromaDB vector search, and a FastAPI backend.</text>
+      <text class="meta" x="48" y="87">PYTHON · LANGCHAIN · LANGGRAPH · FASTAPI · GEMINI · CHROMADB</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row" style="animation-delay:0.25s" transform="translate(0 355)">
+      <text class="title" x="48" y="24">04 / CODESPHERE</text>
+      <text class="copy" x="48" y="49">Collaborative coding platform for real-time pair programming and technical interviews.</text>
+      <text class="copy" x="48" y="68">Includes live code sync, video calls, session management, Monaco Editor, and sandboxed multi-language execution.</text>
+      <text class="meta" x="48" y="87">REACT · NODE.JS · MONGODB · STREAM SDK · CLERK · MONACO · INNGEST · PISTON API</text>
+    </g>
+  </g>
+</svg>
